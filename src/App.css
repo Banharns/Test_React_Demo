@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.add_button {
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.button {
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.button_add {
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #008cba;
+  color: white;
+  border: 2px solid #008cba;
+  border-radius: 5px;
+}
+
+.button_add:hover {
+  background-color: white;
+  color: black;
+}
